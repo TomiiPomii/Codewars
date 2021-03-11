@@ -10,8 +10,6 @@ Be careful 1000! has 2568 digits...
 For more info, see: http://mathworld.wolfram.com/Factorial.html 
 """
 
-import math
-
 def zeros(n):
     quotient = round(n / 5)
 
