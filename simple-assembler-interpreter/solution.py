@@ -23,6 +23,7 @@ Also, every inc/dec/jnz on a register will always be preceeded by a mov on the r
 """
 
 def check_num_str(s):
+    
     return s.isdigit() or s[0] == '-' and s[1:].isdigit()
 
 def simple_assembler(program):
